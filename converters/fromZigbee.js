@@ -6042,7 +6042,7 @@ const converters = {
             return payload;
         },
     },
-    MFKZQ01LM_action_multistate: {
+    aqara_cube_action_multistate: {
         cluster: 'genMultistateInput',
         type: ['attributeReport', 'readResponse'],
         options: [exposes.options.legacy()],
@@ -6091,7 +6091,7 @@ const converters = {
             return result ? result : null;
         },
     },
-    MFKZQ01LM_action_analog: {
+    aqara_cube_action_analog: {
         cluster: 'genAnalogInput',
         type: ['attributeReport', 'readResponse'],
         options: [exposes.options.legacy()],
